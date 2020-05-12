@@ -2,7 +2,7 @@ EDUCATIONAL-REST
 
 This is an example of RESTfull java web service, running in Tomcat v9.0 Application Server. 
 CRUD operations on local running MYSQL database are made available from Http request, to manage a simple address-book.
-Maven are also utilized to import some library as a dependencies.
+Maven are also utilized to import some library as dependencies.
 
 Locally, the web services are tested with Postman, an API client to send Http request (POST, GET, UPDATE, DELETE...), while 
 the DB named testdbrest is formed by one table: contacts. The field are: contact_id (primary key), name, email, gender, phone, 
