@@ -10,37 +10,41 @@ city and country. User-password are setted to "Admin" "Admin".
 Web service are accessible by this URI:
 
 CREATE: 
-  POST http://localhost:8080/java_JAX-RS/api/resources/create
+
+POST http://localhost:8080/java_JAX-RS/api/resources/create
  
-  with a body JSON message like this: 
-  {
-    "contact_id" : "1",
-	  "name" : "Alessio",
-	  "email" : "alessios",
-	  "gender" : "male",
-	  "phone" : "339",
-	  "city" : "Ancona",
-	  "country" : "Italy"
-  }
+with a body JSON message like this: 
+{
+"contact_id" : "1",
+"name" : "Alessio",
+"email" : "alessios",
+"gender" : "male",
+"phone" : "339",
+"city" : "Ancona",
+"country" : "Italy"
+}
   
 READ: 
-  GET http://localhost:8080/java_JAX-RS/api/resources/find
-  GET http://localhost:8080/java_JAX-RS/api/resources/find/id/[contact_id]
-  GET http://localhost:8080/java_JAX-RS/api/resources/find/city/[city]
-  GET http://localhost:8080/java_JAX-RS/api/resources/find/country/[country]
+
+GET http://localhost:8080/java_JAX-RS/api/resources/find
+GET http://localhost:8080/java_JAX-RS/api/resources/find/id/[contact_id]
+GET http://localhost:8080/java_JAX-RS/api/resources/find/city/[city]
+GET http://localhost:8080/java_JAX-RS/api/resources/find/country/[country]
 
 UPDATE:
-  PUT http://localhost:8080/java_JAX-RS/api/resources/update/[contact_id]
+
+PUT http://localhost:8080/java_JAX-RS/api/resources/update/[contact_id]
   
-  with a body JSON message like this: 
-  {
-	  "name" : "Alessio",
-	  "email" : "alessios",
-	  "gender" : "male",
-	  "phone" : "339",
-	  "city" : "Ancona",
-	  "country" : "Italy"
-  }
+with a body JSON message like this: 
+{
+"name" : "Alessio",
+"email" : "alessios",
+"gender" : "male",
+"phone" : "339",
+"city" : "Ancona",
+"country" : "Italy"
+}
   
 DELETE:
-  DELETE http://localhost:8080/java_JAX-RS/api/resources/delete/[contact_id]
+
+DELETE http://localhost:8080/java_JAX-RS/api/resources/delete/[contact_id]
