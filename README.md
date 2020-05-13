@@ -1,6 +1,6 @@
 EDUCATIONAL-REST
 
-This is an example of RESTfull java web service, running in Tomcat v9.0 Application Server. 
+This is an example of REST java web service, running in Tomcat v9.0 Application Server. 
 CRUD operations on local running MYSQL database are made available from Http request, to manage a simple address-book.
 Maven are also utilized to import some library as dependencies.
 
